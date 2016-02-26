@@ -18,6 +18,7 @@ public class CalculatorTest {
     @Test
     public void testSum() throws Exception {
         assertEquals(6d, mCalculator.sum(1d, 5d), 0);
+
     }
 
     @Test
@@ -32,6 +33,6 @@ public class CalculatorTest {
 
     @Test
     public void testMultiply() throws Exception {
-        assertEquals(20d, mCalculator.multiply(2d, 5d), 0);
+        assertEquals(21d, mCalculator.multiply(2d, 5d), 0);
     }
 }
